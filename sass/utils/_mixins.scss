@@ -1,0 +1,22 @@
+@mixin pushAuto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+// fonts
+
+@mixin aleo($fontSize, $lineHeight) {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  font-size: $fontSize * 1px;
+  line-height: #{$lineHeight/$fontSize};
+}
+
+@mixin josefin($fontWeight, $fontSize, $lineHeight) {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: $fontWeight;
+  font-size: $fontSize * 1px;
+  line-height: #{$lineHeight/$fontSize};
+}

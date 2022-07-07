@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding-left: 321px;
+  padding-top: 32px;
+  padding-bottom: 31px;
+
+  background-color: map-get($colors, 'link');
+}
+
+.logo {
+  @include josefin(700, 24, 26);
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+
+  margin-right: 410px;
+
+  color: map-get($colors, 'white');
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.nav__link {
+  @include aleo(16, 24);
+  text-transform: uppercase;
+
+  color: map-get($colors, 'white');
+}
