@@ -1,16 +1,18 @@
-.hero-container {
+.hero {
+  position: relative;
   width: 1770px;
   height: 821px;
+  padding-top: 264px;
   @include pushAuto;
   background-image: url('../image/hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 
   text-align: center;
 }
 
 .hero-thumb {
-  padding-top: 264px;
   color: map-get($colors, 'white');
 }
 

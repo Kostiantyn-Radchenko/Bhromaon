@@ -1,9 +1,7 @@
 .nav {
-  display: flex;
-  align-items: center;
-  padding-left: 321px;
-  padding-top: 32px;
-  padding-bottom: 31px;
+  position: relative;
+  bottom: -51px;
+  left: 0;
 
   background-color: map-get($colors, 'link');
 }
@@ -13,15 +11,21 @@
   text-transform: uppercase;
   letter-spacing: 2.4px;
 
-  margin-right: 410px;
+  margin-top: 30px;
+  margin-bottom: 34px;
 
   color: map-get($colors, 'white');
+}
+
+.nav-thumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list {
   display: flex;
 }
-
 .nav__item {
   &:not(:last-child) {
     margin-right: 40px;
@@ -31,6 +35,9 @@
 .nav__link {
   @include aleo(16, 24);
   text-transform: uppercase;
+
+  padding-top: 34px;
+  padding-bottom: 34px;
 
   color: map-get($colors, 'white');
 }
