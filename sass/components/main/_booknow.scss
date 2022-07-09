@@ -1,0 +1,38 @@
+.book-now__item {
+  width: 1770px;
+  height: 700px;
+
+  padding-top: 227px;
+  padding-bottom: 99px;
+
+  @include pushAuto;
+
+  background-image: url(../image/booknowfirst.jpg);
+  //background-repeat: no-repeat;
+  background-position: center;
+
+  &:last-child {
+    background-image: url(../image/booknowsecond.jpg);
+  }
+}
+
+.book__thumb {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  padding: 30px 50px;
+
+  width: 543px;
+  background-color: map-get($colors, 'bookBgc');
+
+  color: map-get($colors, 'accent');
+
+  &.second {
+    margin-left: auto;
+  }
+}
+
+.book-now__btn {
+  @extend %button;
+}

@@ -58,6 +58,11 @@
   background-color: transparent;
   border: transparent;
   color: map-get($colors, 'white');
+
+  &:hover,
+  :focus {
+    color: map-get($colors, 'workBgc');
+  }
 }
 
 .hero-btn__scroll-icon {
