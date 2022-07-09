@@ -23,15 +23,18 @@
 
 .choose-us__title {
   @include aleo(36, 26);
+
+  color: map-get($colors, 'accent');
 }
 
 .choose-us__text {
   letter-spacing: 1.6px;
 
   width: 560px;
+
+  color: map-get($colors, 'accent');
 }
-.choose-us__item {
-}
+
 .chose-us__first {
   display: block;
   margin-bottom: 40px;
