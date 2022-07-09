@@ -1,0 +1,51 @@
+.how-work__title {
+  @extend %visually-hidden;
+}
+
+.how-work {
+  width: 1770px;
+  @include pushAuto;
+
+  padding-top: 78px;
+  padding-bottom: 96px;
+
+  background-color: map-get($colors, 'workBgc');
+
+  background-image: url(../image/Shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 50px;
+}
+
+.how-work__list {
+  display: flex;
+  justify-content: space-around;
+
+  @include aleo(36, 26);
+
+  color: map-get($colors, 'accent');
+}
+
+// icon
+
+.how-work__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  content: '';
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 19px;
+
+  width: 99px;
+  height: 99px;
+
+  background-color: map-get($colors, 'workBgc');
+
+  border-radius: 50%;
+}
