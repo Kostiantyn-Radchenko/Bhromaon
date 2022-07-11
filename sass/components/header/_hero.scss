@@ -63,6 +63,8 @@
   :focus {
     color: map-get($colors, 'workBgc');
   }
+
+  cursor: pointer;
 }
 
 .hero-btn__scroll-icon {

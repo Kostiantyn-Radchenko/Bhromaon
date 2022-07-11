@@ -306,6 +306,7 @@ body {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  outline: 1px solid black;
 }
 
 .how-work__title {
@@ -334,6 +335,7 @@ body {
   background-color: #5474fd;
   color: #ffffff;
   border: transparent;
+  cursor: pointer;
 }
 
 .hero {
@@ -410,6 +412,7 @@ body {
   background-color: transparent;
   border: transparent;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .hero-btn__scroll:hover,
