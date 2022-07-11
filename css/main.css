@@ -303,7 +303,7 @@ body {
 }
 
 .container {
-  width: 1110px;
+  width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -337,7 +337,7 @@ body {
 }
 
 .hero {
-  width: 1770px;
+  width: 100%;
   height: 821px;
   padding-top: 264px;
   margin-left: auto;
@@ -487,7 +487,7 @@ body {
   padding-top: 117px;
   margin-left: auto;
   margin-right: auto;
-  width: 1770px;
+  width: 100%;
   height: 685px;
   background-image: url(../image/chooseus.jpg);
   background-size: cover;
@@ -502,6 +502,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .choose-us__list {
@@ -555,7 +558,7 @@ body {
 }
 
 .how-work {
-  width: 1770px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 78px;
@@ -612,14 +615,16 @@ body {
 }
 
 .book-now__item {
-  width: 1770px;
+  width: 100%;
   height: 700px;
   padding-top: 227px;
   padding-bottom: 99px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../image/booknowfirst.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .book-now__item:last-child {
@@ -642,17 +647,34 @@ body {
   margin-left: auto;
 }
 
+.book-now__title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+}
+
+.book-now__subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
 .tourist {
   padding-top: 128px;
   padding-bottom: 199px;
   margin-left: auto;
   margin-right: auto;
   color: #e8e8e8;
-  width: 1770px;
+  width: 100%;
   height: 731px;
   background-image: url(../image/tourist.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .tourist__title {

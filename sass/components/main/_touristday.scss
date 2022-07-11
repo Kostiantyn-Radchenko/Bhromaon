@@ -6,11 +6,12 @@
 
   color: map-get($colors, 'accent');
 
-  width: 1770px;
+  width: 100%;
   height: 731px;
   background-image: url(../image/tourist.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .tourist__title {
